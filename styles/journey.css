@@ -1,0 +1,26 @@
+
+.journeyC h2{
+  margin-bottom: 2.6rem
+}
+.journeyImgContainer{
+  position: relative;
+  margin-bottom: 5.87rem;
+}
+.journeyImgContainer .main{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 20px solid lightgray;
+  border-radius: 10px;
+}
+.journeyImgContainer .top{
+  position: absolute;
+  left: 5%;
+  top: -5%;
+}
+.journeyImgContainer .bottom{
+  position: absolute;
+  right: 5%;
+  bottom: -5%;
+}

@@ -5,8 +5,12 @@ const Journey = () => {
   return (
     <div className='journeyC'>
      <div>
-      <h2>Your Journey Starts Now</h2>
-      <img style={{width:'100%'}} src="/images/journey.gif" alt="" />
+      <h2><span className="mytext">Your Journey</span> Starts Now</h2>
+      <div className='journeyImgContainer'>
+         <img src='/images/sq.png' className="top"></img>
+         <img className='main'  src="/images/journey.gif" alt="" />
+         <img src='/images/sq.png' className="bottom"></img>
+      </div>
      </div>
      <Row>
        <Col md={4}>
