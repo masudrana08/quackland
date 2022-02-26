@@ -3,7 +3,7 @@ import Collapsible from "react-collapsible";
 
 const FAQ = () => {
   return (
-    <div>
+    <div className='faqC'>
       Faq
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navbar from "./Navbar";
+import MyNavbar from "./MyNavbar";
 import Header from "./Header";
 import Journey from "./Journey";
 import Roadmap from "./Roadmap";
@@ -11,11 +11,11 @@ import Footer from "./Footer";
 const Index = () => {
   return (
     <div>
-        <Navbar />
+        <MyNavbar />
         <Header />
         <Journey/>
         <Roadmap/>
-        <FAQ/>
+        {/* <FAQ/> */}
         <Team/>
         <Footer />
     </div>
