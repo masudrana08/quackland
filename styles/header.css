@@ -1,18 +1,59 @@
 .headerContainer{
   background: linear-gradient(180deg, rgba(24, 24, 24, 1) 0%, #181818 85.94%);
 }
+.headerC{
+  margin-top: 250px;
+  
+}
+.headerContent{
+  padding: 0 3rem
+}
 .headerBgContainer{
   position: relative;
-  padding-top: 200px;
 }
 .headerBgContainer img{
   position: absolute;
   width: 100%;
 }
-.relative{
+.headerLeft{
   position: relative;
+  top: -8rem;
+  padding-left: 3rem
+}
+.headerLeft h1{
+  margin-bottom: 1rem;
+}
+.headerLeft img{
+  width: 100%
 }
 .headerRightImgContainer img{
   position: relative;
-  top: -170px;
+  width: 100%;
+  top: -11rem;
+}
+.headerBtnContainer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 4.9rem;
+}
+.headerBtnContainer button{
+  border: none;
+  outline: none;
+  background: #ffc700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 13px 36px;
+  box-shadow: 3px 3px 0px #816811;
+  border-radius: 50px;
+  color: rgba(24, 24, 24, 1);
+  font-weight: 600;
+}
+.headerBtnContainer p{
+  font-weight: 600;
+  color: #ffc700;
+  margin: 0; 
+  padding: 0;
+  margin-left: 64px;
+  
 }

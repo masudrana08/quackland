@@ -1,4 +1,6 @@
-
+.mynavbarC{
+  /* margin-bottom: 110px; */
+}
 
 .navbar-nav{
   width: 100%;
@@ -14,3 +16,15 @@
   width: 1.79rem;
 }
 
+
+.navbar-light .navbar-nav .nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: #FFC700
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url('/images/nav.svg');
+}

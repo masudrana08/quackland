@@ -5,26 +5,38 @@ const Roadmap = () => {
     <div className='roadmapC'>
       <div>
         <h3>Phase 1</h3>
-        Website & Social Community Building
-        White List
-        Community Board - Vote NFT arts and attributes
+        <li>
+          Website & Social Community Building
+        </li>
+        <li>
+          White List
+        </li>
+        <li>
+          Community Board - Vote NFT arts and attributes
+        </li>
       </div>
       <div>
         <h3>Phase 2</h3>
-        Minting (Pre-sale & Public)
-        Tokenomics
-        Community Board - Auction & donation
+        <li>
+          Minting (Pre-sale & Public)
+        </li>
+        <li>
+          Tokenomics
+        </li>
+        <li>
+          Community Board - Auction & donation
+        </li> 
       </div>
       <div>
         <h3>Phase 3</h3>
-        Staking 
-        Breeding
-        Community Board - Game Feedback
+        <li>Staking </li>
+        <li>Breeding</li>
+        <li>Community Board - Game Feedback</li>
       </div>
       <div>
         <h3>Phase 4</h3>
-        Quack Land Game Beta Testing? 
-        Community Board - Leadership Board & Prize Raffles
+        <li>Quack Land Game Beta Testing? </li>
+        <li> Community Board - Leadership Board & Prize Raffles</li>
       </div>
     </div>
   );
