@@ -1,0 +1,18 @@
+.headerContainer{
+  background: linear-gradient(180deg, rgba(24, 24, 24, 1) 0%, #181818 85.94%);
+}
+.headerBgContainer{
+  position: relative;
+  padding-top: 200px;
+}
+.headerBgContainer img{
+  position: absolute;
+  width: 100%;
+}
+.relative{
+  position: relative;
+}
+.headerRightImgContainer img{
+  position: relative;
+  top: -170px;
+}

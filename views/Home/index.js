@@ -11,8 +11,10 @@ import Footer from "./Footer";
 const Index = () => {
   return (
     <div>
-        <MyNavbar />
-        <Header />
+        <div className='headerContainer'>
+          <MyNavbar />
+          <Header />
+        </div>
         <Journey/>
         <Roadmap/>
         {/* <FAQ/> */}
