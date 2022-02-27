@@ -3,9 +3,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.roadmapC h3{
+  color: #ffc700;
+}
 .roadmapC .inner{
   width: 80%;
-  margin: auto
+  margin: auto;
+  padding: 100px 0;
 }
 .phase1{
   border-bottom-left-radius: 10px;

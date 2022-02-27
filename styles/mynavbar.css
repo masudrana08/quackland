@@ -12,8 +12,12 @@
   width: 4.37rem;
   height: auto;
 }
-.nav-icon{
-  width: 1.79rem;
+.nav-icon svg{
+  font-size: 1.79rem;
+  margin-right: 5px
+}
+.nav-icon svg:nth-child(1){
+  font-size: 2rem;
 }
 
 

@@ -25,10 +25,10 @@ export default function MyNavbar() {
             </Nav>
         </Navbar.Collapse>
         </div>
-        <div>
-          <AiOutlineMedium className='nav-icon' />
-          <FaTwitter className='nav-icon' />
-          <FaDiscord className='nav-icon' />
+        <div className='nav-icon'>
+          <AiOutlineMedium  />
+          <FaTwitter  />
+          <FaDiscord  />
         </div>
       </div>
       <Navbar.Offcanvas
