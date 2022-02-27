@@ -21,3 +21,6 @@
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
+.accordion-button::after,.accordion-button:not(.collapsed)::after{
+  background-image: url('/images/accordion.svg');
+}
