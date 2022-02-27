@@ -3,3 +3,70 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.roadmapC .inner{
+  width: 80%;
+  margin: auto
+}
+.phase1{
+  border-bottom-left-radius: 10px;
+    border-bottom: 5px dashed #ffc700;
+    border-left: 5px dashed #ffc700;
+    padding: 0 40px 40px;
+    position: relative;
+}
+
+.phase1:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -22px;
+  height: 40px;
+  width: 40px;
+  background: #ffc700;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 10px solid #745d0e;
+}
+
+.phase2{
+  border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-right: 5px dashed #ffc700;
+    padding: 40px;
+    margin-right: -6px;
+    margin-top: -7px;
+    margin-bottom: -7px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.phase3 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top: 5px dashed #ffc700;
+  border-bottom: 5px dashed #ffc700;
+  border-left: 5px dashed #ffc700;
+  padding: 40px;
+}
+.phase4 {
+  border-top-right-radius: 10px;
+  border-right: 5px dashed #ffc700;
+  padding: 40px;
+  margin-right: -5px;
+  margin-top: -7px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.phase4:before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: -22px;
+  height: 40px;
+  width: 40px;
+  background: #ffc700;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 5px solid #745d0e;
+}

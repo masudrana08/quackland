@@ -17,7 +17,7 @@ const Index = () => {
         </div>
         <Journey/>
         <Roadmap/>
-        {/* <FAQ/> */}
+        <FAQ/>
         <Team/>
         <Footer />
     </div>

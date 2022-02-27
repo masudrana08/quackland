@@ -12,7 +12,7 @@ const Journey = () => {
          <img src='/images/sq.png' className="bottom"></img>
       </div>
      </div>
-     <Row>
+     <Row className='secondPart'>
        <Col md={4}>
           <h4>Explore Quack Land</h4>
           <p>Journey across the habitat, uncovering ancient secrets and discovering hidden treasures along the way.</p>
