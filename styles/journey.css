@@ -18,25 +18,30 @@
   position: absolute;
   left: 5%;
   top: -5%;
+  z-index: -100;
 }
 .journeyImgContainer .bottom{
   position: absolute;
   right: 5%;
   bottom: -5%;
+  z-index: -100;
 }
 
 .journeyC .secondPart{
   text-align: center;
   width: 80%; 
   margin: auto;
-  box-shadow: 0 15px 20px rgba(51, 51, 51, 0.753);
+  /* box-shadow: 0 15px 20px rgba(51, 51, 51, 0.753); */
   margin-bottom: 100px;
 }
 .journeyC .secondPart div{
   padding: 25px 15px;
 }
 .journeyC .secondPart div:nth-child(even){
-  background: #1F1F1F;
+  background: rgba(31, 31, 31, 1);
+}
+.journeyC .secondPart div:nth-child(odd){
+  background: rgba(39, 39, 39, 1);
 }
 .journeyC p{
   margin-top: 12px;
