@@ -36,4 +36,10 @@
   .accordion-body{
     font-size: 0.75rem;
   }
+  .faqC .title {
+    margin-top: 0;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
 }

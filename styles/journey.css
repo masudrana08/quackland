@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  border: 20px solid lightgray;
+  border: 20px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
 }
 .journeyImgContainer .top{
@@ -41,4 +41,36 @@
 .journeyC p{
   margin-top: 12px;
   padding: 0 10px;
+}
+
+@media only screen and (max-width: 991px){
+  .journeyImgContainer .main{
+    width: 90%;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+  }
+  .journeyImgContainer .top {
+    width: 50px;
+    left: 0;
+    top: -27px;
+    z-index: -100;
+  }
+  .journeyImgContainer .bottom {
+    right: 0;
+    bottom: -15%;
+    width: 50px;
+    z-index: -1;
+  }
+  .journeyC .secondPart{
+    box-shadow: none;
+    width: 90%;
+    margin-bottom: 48px;
+  }
+  .journeyC h2 {
+    /* margin-bottom: 2.6rem; */
+    position: relative;
+    top: -60px;
+    width: 71%;
+    margin: auto;
+}
 }

@@ -52,6 +52,15 @@ p{
 }
 
 @media only screen and (max-width: 991px){
+  .hideInMobile{
+    display:none
+  }
+  .nav-icon{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   h1{
     font-size: 1.75rem;
     line-height: 40px;
@@ -64,6 +73,10 @@ p{
     font-size: 1.25rem;
     line-height: 30px;
   }
+  h4{
+    font-size: 0.87rem;
+    line-height: 21px;
+  }
   li{
     font-size: 0.87rem;
     line-height: 34px;
@@ -72,21 +85,12 @@ p{
   p{
     font-size: 0.75rem;
     line-height: 20px;
+    font-weight: normal;
   }
 }
 
 
-@media only screen and (max-width: 991px){
-  .hideInMobile{
-    display:none
-  }
-  .nav-icon{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
+
 @media only screen and (min-width: 992px){
   .hideInDesktop{
     display:none

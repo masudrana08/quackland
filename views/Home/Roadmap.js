@@ -3,6 +3,7 @@ import React from "react";
 const Roadmap = () => {
   return (
     <div className='roadmapC'>
+      <h2>Roadmap</h2>
       <div className="inner">
         <div className='phase1'>
           <h3>Phase 1</h3>

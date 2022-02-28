@@ -32,10 +32,10 @@ export default function MyNavbar() {
               <img className='nav-logo' src="/images/logo.png" alt="" />
             </Navbar.Brand>
           </div>
-          <div>
-            <AiOutlineMedium  />
-            <FaTwitter  />
-            <FaDiscord  />
+          <div className='d-flex'>
+            <div className='icon-bg' ><AiOutlineMedium  style={{fontSize:'2rem'}}/></div>
+            <div className='icon-bg'><FaTwitter  /></div>
+            <div className='icon-bg'><FaDiscord  /></div>
           </div>
         </div>
       </div>

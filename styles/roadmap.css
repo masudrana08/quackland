@@ -74,3 +74,40 @@
   box-sizing: border-box;
   border: 5px solid #745d0e;
 }
+
+@media only screen and (max-width: 991px){
+  .roadmapC .inner{
+    width: 90%;
+    padding-top: 40px;
+  }
+  .phase1{
+    padding: 0;
+    padding-left: 30px;
+    border-bottom: 4px dashed #ffc700;
+    border-left: 4px dashed #ffc700;
+  }
+  .phase2{
+      border-right: 4px dashed #ffc700;
+  }
+  .phase3 {
+    border-top: 4px dashed #ffc700;
+    border-bottom: 4px dashed #ffc700;
+    border-left: 4px dashed #ffc700;
+  }
+  .phase4 {
+    border-right: 4px dashed #ffc700;
+  }
+  li{
+    list-style-type: none;
+  }
+  li::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: -14px;
+  }
+}
