@@ -69,6 +69,10 @@ p{
     line-height: 34px;
     font-weight: 600;
   }
+  p{
+    font-size: 0.75rem;
+    line-height: 20px;
+  }
 }
 
 

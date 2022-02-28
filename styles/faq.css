@@ -28,3 +28,12 @@
 .accordion-button::after,.accordion-button:not(.collapsed)::after{
   background-image: url('/images/accordion.svg');
 }
+
+@media only screen and (max-width: 991px){
+  .accordion-item button, .accordion-item button:not(.collapsed){
+    font-size: 0.87rem
+  }
+  .accordion-body{
+    font-size: 0.75rem;
+  }
+}
