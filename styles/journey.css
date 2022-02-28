@@ -33,8 +33,12 @@
   margin-bottom: 100px;
 }
 .journeyC .secondPart div{
-  padding: 15px;
+  padding: 25px 15px;
 }
 .journeyC .secondPart div:nth-child(even){
   background: #1F1F1F;
+}
+.journeyC p{
+  margin-top: 12px;
+  padding: 0 10px;
 }

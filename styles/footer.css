@@ -46,3 +46,42 @@
 .footer-bottom svg:nth-child(3){
   font-size: 2.3rem;
 }
+
+
+@media only screen and (max-width: 991px){
+  .subscribe .inner{
+    flex-direction: column;
+    padding: 20px
+  }
+  .subscribe input{
+    width: 90%;
+  }
+  .subscribe button{
+    position: static;
+    width: 170px;
+    margin-top: 15px
+  }
+  .footerC{
+    padding-top: 70px;
+  }
+  .footerIcon{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+  .footerIcon svg{
+    font-size: 35px;
+    margin-right: 5px
+  }
+  .footer-bottom{
+    justify-content: space-between;
+  }
+  .footer-bottom img{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px
+  }
+}

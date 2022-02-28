@@ -8,10 +8,10 @@ export default function MyNavbar() {
     <div className='mynavbarC'>
       <Navbar expand="lg" className='p-0'>
       <Container>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+     
       <div className='navbar-nav'>
         <div>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home" className='hideInMobile'>
             <img className='nav-logo' src="/images/logo.png" alt="" />
           </Navbar.Brand>
         </div>
@@ -26,9 +26,17 @@ export default function MyNavbar() {
         </Navbar.Collapse>
         </div>
         <div className='nav-icon'>
-          <AiOutlineMedium  />
-          <FaTwitter  />
-          <FaDiscord  />
+          <div>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Brand href="#home" className='hideInDesktop'>
+              <img className='nav-logo' src="/images/logo.png" alt="" />
+            </Navbar.Brand>
+          </div>
+          <div>
+            <AiOutlineMedium  />
+            <FaTwitter  />
+            <FaDiscord  />
+          </div>
         </div>
       </div>
       <Navbar.Offcanvas
