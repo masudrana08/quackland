@@ -49,9 +49,8 @@
 
 .input-group{
   max-width: 394px;
-  position: relative;
-  left: -5.5%
-  
+  width: 386px;
+
 }
 .input-group-text{
   border-radius: 50px;
@@ -68,11 +67,16 @@
   z-index: 100;
 }
 .subscribe{
+    flex-direction: column;
+}
+.innerSub{
   display: flex;
   justify-content: flex-end;
-
+  width: 95%;
 }
-
+.innerSub h5{
+  margin-bottom: 15px;
+}
 @media only screen and (max-width: 991px){
   .subscribe .inner{
     flex-direction: column;
@@ -94,13 +98,13 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    border-bottom: 1px solid lightgray;
-    margin-bottom: 30px;
+    margin-bottom: 17px;
     padding-bottom: 10px;
   }
-  .footerIcon svg{
-    font-size: 35px;
-    margin-right: 5px
+  .footerIcon{
+    width: 98%;
+    margin: auto;
+
   }
   .footer-bottom{
     justify-content: center;
@@ -112,7 +116,8 @@
   }
   .subscribe{
     justify-content: center;
-    padding: 0 30px
+    padding: 0 30px;
+    flex-direction: column;
   }
   .subscribe input{
     font-size: 14px
@@ -121,7 +126,27 @@
     padding: 0 20px
   }
   .input-group{
-    left: -11px
-    
+    width: 270px;
+  }
+  .innerSub{
+    display: flex;
+    justify-content: center;
+  }
+  .footLogo img{
+    width: 54px;
+
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .input-group{
+    width: 200px;
+  }
+  .input-group-text {
+    padding: 0 7px;
+    font-size: 14px
+  }
+  .innerSub h5{
+    margin-left: 20px
   }
 }

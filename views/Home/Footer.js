@@ -6,23 +6,22 @@ export default function Footer() {
   return (
     <div className='footerC'>
       <div className='subscribe'>
-        {/* <div>
-        <div className="inner">
-          <input type="text" placeholder='Enter your email address' />
-          <button>Subscribe</button>
+      <div className='innerSub'>
+        <div>
+          <h5>Join Newsletter!</h5>
+            <InputGroup className="mb-3">
+            <FormControl
+              placeholder="Enter your email"
+              aria-label="Recipient's username"
+              aria-describedby="basic-addon2"
+            />
+            <InputGroup.Text id="basic-addon2">Subscribe</InputGroup.Text>
+          </InputGroup>
         </div>
-        </div> */}
-        <InputGroup className="mb-3">
-        <FormControl
-          placeholder="Enter your email address"
-          aria-label="Recipient's username"
-          aria-describedby="basic-addon2"
-        />
-        <InputGroup.Text id="basic-addon2">Subscribe</InputGroup.Text>
-      </InputGroup>
+      </div>
       </div>
       <div className='hideInDesktop footerIcon'>
-        <div>
+        <div className='footLogo'>
           <img src="/images/logo.png" alt="" />
         </div>
           <div className='d-flex'>
