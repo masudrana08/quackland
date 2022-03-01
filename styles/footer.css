@@ -59,6 +59,7 @@
   height: 100%;
   background-color:#F7CF3E;
   color: white;
+  padding: 0 30px
 }
 .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
   border-top-left-radius: 50px;
@@ -114,5 +115,8 @@
   }
   .subscribe input{
     font-size: 14px
+  }
+  .input-group-text{
+    padding: 0 20px
   }
 }

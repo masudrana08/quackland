@@ -18,7 +18,11 @@
 .headerLeft{
   position: relative;
   top: -8rem;
-  padding-left: 3rem
+  padding-left: 3rem;
+  
+}
+.headerLeft p{
+  max-width: 677px;
 }
 .headerLeft h1{
   margin-bottom: 1rem;
@@ -67,18 +71,19 @@
  .headerContent{
    padding: 0;
    text-align: center;
-   width: 95%;
+   width: 80%;
    margin: auto;
  }
  .headerLeft{
-   padding: 0
+   padding: 0;
+   top: 0
  }
  .headerC {
-  margin-top: 165px;
+  margin-top: 46px;
  }
   .headerBtnContainer {
     justify-content: center;
-    
+    margin-top: 46px;
   }
   .headerBtnContainer button{
     padding : 10px 30px; 

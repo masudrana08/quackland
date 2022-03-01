@@ -17,7 +17,7 @@ const Header = () => {
             <p>Follow Twitter</p>
           </div>
           <div className='partnerContainer'>
-            <img  src='/images/partners.png' alt="partners" />
+            <img className='hideInMobile' src='/images/partners.png' alt="partners" />
           </div>
         </Col>
         <Col md={6} className='headerRightImgContainer'>
