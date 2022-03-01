@@ -62,7 +62,6 @@
   }
   .journeyImgContainer .bottom {
     right: 0;
-    bottom: -15%;
     width: 50px;
     z-index: -1;
   }
@@ -72,10 +71,9 @@
     margin-bottom: 48px;
   }
   .journeyC h2 {
-    /* margin-bottom: 2.6rem; */
     position: relative;
-    top: -60px;
     width: 71%;
     margin: auto;
+    margin-bottom: 2.6rem;
 }
 }

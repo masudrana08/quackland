@@ -7,8 +7,6 @@ export default function MyNavbar() {
   return (
     <div className='mynavbarC'>
       <Navbar expand="lg" className='p-0'>
-      <Container>
-     
       <div className='navbar-nav'>
         <div>
           <Navbar.Brand href="#home" className='hideInMobile'>
@@ -33,9 +31,9 @@ export default function MyNavbar() {
             </Navbar.Brand>
           </div>
           <div className='d-flex'>
-            <div className='icon-bg' ><AiOutlineMedium  style={{fontSize:'2rem'}}/></div>
-            <div className='icon-bg'><FaTwitter  /></div>
-            <div className='icon-bg'><FaDiscord  /></div>
+            <div className='icon-bg'><img src='/images/medium.png' /></div>
+            <div className='icon-bg'><img src='/images/twitter.png' /></div>
+            <div className='icon-bg'><img src='/images/discord.png' /></div>
           </div>
         </div>
       </div>
@@ -60,8 +58,6 @@ export default function MyNavbar() {
         
       </Offcanvas.Body>
       </Navbar.Offcanvas>
-       
-      </Container>
     </Navbar>
     </div>
   )

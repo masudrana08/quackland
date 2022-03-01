@@ -58,11 +58,15 @@
   
 }
 
+.partnerContainer{
+  width: 100%;
+  margin: auto;
+}
 @media only screen and (max-width: 991px){
  .headerContent{
    padding: 0;
    text-align: center;
-   width: 90%;
+   width: 95%;
    margin: auto;
  }
  .headerLeft{
@@ -71,13 +75,24 @@
  .headerC {
   margin-top: 165px;
  }
+  .headerBtnContainer {
+    justify-content: center;
+    
+  }
   .headerBtnContainer button{
     padding : 10px 30px; 
+    
   }
   .headerBtnContainer p{
     margin-left: 50px
   }
   .headerRightImgContainer img{
-    top: -6rem;
+    top: 0;
+  }
+  .partnerContainer{
+    display: flex;
+  }
+  .headerBgContainer img{
+    bottom: 0
   }
 }

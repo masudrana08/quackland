@@ -1,11 +1,16 @@
+.mynavbarC{
+  padding-top: 24px;
+  width: 85%;
+  margin: auto;
+}
 .icon-bg{
   background-color: rgba(255, 255, 255, 0.15);
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 12px;
+  margin: 0 20.5px;
   border-radius: 50%;
 
 }
@@ -17,11 +22,12 @@
   align-items: center;
 }
 .nav-logo{
-  width: 4.37rem;
+  width: 70px;
   height: auto;
 }
-.nav-icon svg{
-  font-size: 1.5rem;
+.nav-icons img{
+  width: 100%; 
+  padding: 20px
 }
 
 
@@ -29,6 +35,8 @@
   text-decoration: none;
   color: white;
   font-weight: 600;
+  padding: 0;
+  margin: 0 24px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
   color: #FFC700
@@ -41,17 +49,15 @@
 
 
 @media only screen and (max-width: 991px){
-  .mynavbarC .container{
-    padding-right: 0;
-    padding-left: 0;
+  .mynavbarC{
+    width: 100%;
   }
   .nav-logo{
     width: 3.43rem;
   }
-  .navbar-nav{
-    padding-top: 21px
+  .nav-icon{
+    width: 99%;
   }
-  .headerBgContainer img {
-    margin-top: 140%;
-  }
+ 
+  
 }
