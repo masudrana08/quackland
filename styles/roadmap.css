@@ -38,8 +38,8 @@
     border-right: 5px dashed #ffc700;
     padding: 40px;
     margin-right: -6px;
-    margin-top: -7px;
-    margin-bottom: -7px;
+    margin-top: -5px;
+    margin-bottom: -5px;
     display: flex;
     justify-content: flex-end;
     position: relative;
@@ -57,7 +57,7 @@
   border-right: 5px dashed #ffc700;
   padding: 40px;
   margin-right: -5px;
-  margin-top: -7px;
+  margin-top: -5px;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -81,7 +81,6 @@
     padding-top: 40px;
   }
   .phase1{
-    padding: 0;
     padding-left: 30px;
     border-bottom: 4px dashed #ffc700;
     border-left: 4px dashed #ffc700;

@@ -26,6 +26,7 @@
 .headerLeft img{
   width: 100%
 }
+
 .headerRightImgContainer img{
   position: relative;
   width: 100%;
@@ -94,5 +95,8 @@
   }
   .headerBgContainer img{
     bottom: 0
+  }
+  .icon-bg{
+    margin: 0 6px;
   }
 }
