@@ -50,7 +50,8 @@
 .input-group{
   max-width: 394px;
   position: relative;
-  left: -11px
+  left: -5.5%
+  
 }
 .input-group-text{
   border-radius: 50px;
@@ -118,5 +119,9 @@
   }
   .input-group-text{
     padding: 0 20px
+  }
+  .input-group{
+    left: -11px
+    
   }
 }

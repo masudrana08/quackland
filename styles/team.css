@@ -10,21 +10,44 @@
   margin-bottom: 31px
 
 }
-.teamC .sectionB{
-  width: 90%;
+
+
+ /* card  */
+.cardContainer{
+  width: 80%;
   margin: auto;
+  row-gap: 20px;
+  
 }
-.teamC .sectionB div{
-  background: #1F1F1F;
-  box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.05);
-  border-radius: 12px;
-  margin: 10px
+ .card-inner{
+   display: flex;
+   justify-content: center;
+   /* background-color: red;
+   padding: 30px */
+ }
+
+.mycard{
+  background-color: rgba(31, 31, 31, 1);
+  max-width: 248px;
+  padding: 30px;
+  border-radius: 10px;
 }
-.teamC .sectionB img{
+.mycard .imgCont img{
   width: 100%;
+  margin-bottom: 20px
+  
 }
 
-.sectionB .cardContent{
+.content-part{
   display: flex;
   justify-content: space-between;
+}
+.content-part p{
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+.content-part .tweetCont{
+  flex-shrink: 1;
 }
