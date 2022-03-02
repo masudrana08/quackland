@@ -3,7 +3,7 @@ import { Col, Row, Container } from 'react-bootstrap'
 
 const Header = () => {
   return (
-    <div className='headerC'>
+    <div className='headerC' >
       <div className='headerBgContainer'>
           <img src="/images/banner-bg.png" alt="" />
         

@@ -19,7 +19,7 @@ export default function MyNavbar() {
    customSidebar.className += ' hideIt'
  }
   return (
-    <div className='mynavbarC'>
+    <div className='mynavbarC' id="home">
       <Navbar expand="lg" className='p-0'>
       <div className='navbar-nav'>
         <div  style={{width: '206px'}}>
@@ -57,6 +57,7 @@ export default function MyNavbar() {
           <div className='crossbtn'>
             <ImCross onClick={closeSidebar} />
           </div>
+            <Nav.Link href="#home" >Home</Nav.Link>
             <Nav.Link href="#mission" >Mission</Nav.Link>
             <Nav.Link href="#roadmap" >Roadmap</Nav.Link>
             <Nav.Link href="#faq" >Faq</Nav.Link>
