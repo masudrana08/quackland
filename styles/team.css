@@ -54,7 +54,7 @@
 
 @media only screen and (min-width: 768px) and (max-width:1227px){
   .cardContainer{
-    width: 95%;
+    width: 93%;
     margin: auto;
     row-gap: 20px;
   }
