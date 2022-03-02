@@ -67,7 +67,7 @@
   width: 100%;
   margin: auto;
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 368px){
   .headerBtnContainer button{
     font-size: 12px;
   }
