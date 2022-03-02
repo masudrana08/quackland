@@ -4,7 +4,7 @@ import Collapsible from "react-collapsible";
 
 const FAQ = () => {
   return (
-    <div className='faqC'>
+    <div className='faqC' id='faq'>
       <h2 className='title'>Frequently Asked Question</h2>
       <div className="inner">
         <Accordion defaultActiveKey="0">

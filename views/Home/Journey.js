@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap'
 
 const Journey = () => {
   return (
-    <div className='journeyC'>
+    <div className='journeyC' id='mission'>
      <div>
       <h2><span className="mytext">Your Journey</span> Starts Now</h2>
       <div className='journeyImgContainer'>

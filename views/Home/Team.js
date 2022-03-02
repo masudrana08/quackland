@@ -5,7 +5,7 @@ import { Card, Col, Row } from "react-bootstrap";
 
 const Team = () => {
   return (
-    <div className='teamC'>
+    <div className='teamC' id='team'>
       <div className="sectionA">
         <h2>Meet The Team</h2>
         <p>We are your Quack Pack of misfits, techies, creatives, and online entrepreneurs who love to nerd out all over NFT and games.  We've designed, developed, and operated across software, gaming, blockchain, and consumer-focused verticals. We offer you an opportunity to create, collect, and collaborate together in a decentralized world with one common goal, to Duck shi*t up</p>

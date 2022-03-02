@@ -1,9 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Navbar, Container, Nav, Offcanvas} from 'react-bootstrap'
 import {AiOutlineMedium} from 'react-icons/ai'
 import {FaTwitter} from 'react-icons/fa'
 import {FaDiscord} from 'react-icons/fa'
 export default function MyNavbar() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+ 
   return (
     <div className='mynavbarC'>
       <Navbar expand="lg" className='p-0'>
@@ -14,18 +19,19 @@ export default function MyNavbar() {
           </Navbar.Brand>
         </div>
         <div>
-        <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto links">
+        <Nav className="me-auto links hideTheMenu">
               <Nav.Link href="#mission">Mission</Nav.Link>
               <Nav.Link href="#roadmap">Roadmap</Nav.Link>
               <Nav.Link href="#faq">Faq</Nav.Link>
               <Nav.Link href="#team">Team</Nav.Link>
             </Nav>
-        </Navbar.Collapse>
+        {/* <Navbar.Collapse id="basic-navbar-nav">
+           
+        </Navbar.Collapse> */}
         </div>
         <div className='nav-icon'>
           <div>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleShow} />
             <Navbar.Brand href="#home" className='hideInDesktop'>
               <img className='nav-logo' src="/images/logo.png" alt="" />
             </Navbar.Brand>
@@ -41,6 +47,8 @@ export default function MyNavbar() {
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
           placement="start"
+          show={show} onHide={handleClose} 
+          scroll={false}
         >
           
       <Offcanvas.Header closeButton>
@@ -49,10 +57,10 @@ export default function MyNavbar() {
       <Offcanvas.Body>
         
           <Nav className="me-auto">
-            <Nav.Link href="#mission">Mission</Nav.Link>
-            <Nav.Link href="#roadmap">Roadmap</Nav.Link>
-            <Nav.Link href="#faq">Faq</Nav.Link>
-            <Nav.Link href="#team">Team</Nav.Link>
+            <Nav.Link href="#mission" >Mission</Nav.Link>
+            <Nav.Link href="#roadmap" >Roadmap</Nav.Link>
+            <Nav.Link href="#faq" >Faq</Nav.Link>
+            <Nav.Link href="#team" >Team</Nav.Link>
           </Nav>
        
         
