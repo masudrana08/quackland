@@ -10,16 +10,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 20.5px;
+  margin: 0 14px;
   border-radius: 50%;
 
 }
-
+.icon-bg:last-child{
+  margin-right: 0;
+}
+.icon-bg:first-child{
+  margin-left: 0;
+}
 .navbar-nav{
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.links a:last-child{
+  margin-right: 0;
 }
 .nav-logo{
   width: 70px;

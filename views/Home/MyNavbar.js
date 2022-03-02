@@ -8,14 +8,14 @@ export default function MyNavbar() {
     <div className='mynavbarC'>
       <Navbar expand="lg" className='p-0'>
       <div className='navbar-nav'>
-        <div>
+        <div  style={{width: '206px'}}>
           <Navbar.Brand href="#home" className='hideInMobile'>
             <img className='nav-logo' src="/images/logo.png" alt="" />
           </Navbar.Brand>
         </div>
         <div>
         <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto links">
               <Nav.Link href="#mission">Mission</Nav.Link>
               <Nav.Link href="#roadmap">Roadmap</Nav.Link>
               <Nav.Link href="#faq">Faq</Nav.Link>

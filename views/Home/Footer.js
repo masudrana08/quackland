@@ -31,14 +31,14 @@ export default function Footer() {
           </div>
         </div>
       <div className='footer-bottom'>
-        <div className='hideInMobile'>
+        <div style={{width:'206px'}} className='hideInMobile'>
           <img src="/images/logo.png" alt="" />
         </div>
         <div>
           <p>© 2021 Quack Squad. All Rights Reserved</p>
         </div>
         <div className='hideInMobile'>
-          <div className='d-flex'>
+          <div className='d-flex '>
             <div className='icon-bg'><img src='/images/medium.png' /></div>
             <div className='icon-bg'><img src='/images/twitter.png' /></div>
             <div className='icon-bg'><img src='/images/discord.png' /></div>
