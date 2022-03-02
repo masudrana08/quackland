@@ -52,7 +52,7 @@ export default function MyNavbar() {
           </div>
         </div>
       </div>
-      <div className="customSidebar hideIt" id='customSidebar'>
+      <div className="hideInDesktop customSidebar hideIt" id='customSidebar'>
         <Nav className="me-auto">
           <div className='crossbtn'>
             <ImCross onClick={closeSidebar} />
