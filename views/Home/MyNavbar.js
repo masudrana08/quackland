@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Navbar, Container, Nav, Offcanvas} from 'react-bootstrap'
-import {AiOutlineMedium} from 'react-icons/ai'
+import {ImCross} from 'react-icons/im'
 import {FaTwitter} from 'react-icons/fa'
 import {FaDiscord} from 'react-icons/fa'
 export default function MyNavbar() {
@@ -8,7 +8,16 @@ export default function MyNavbar() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
- 
+
+ function openSidebar(){
+   const customSidebar = document.getElementById('customSidebar')
+   const classnames = customSidebar.className.replace('hideIt','')
+   customSidebar.className = classnames
+ }
+ function closeSidebar(){
+   const customSidebar = document.getElementById('customSidebar')
+   customSidebar.className += ' hideIt'
+ }
   return (
     <div className='mynavbarC'>
       <Navbar expand="lg" className='p-0'>
@@ -31,7 +40,7 @@ export default function MyNavbar() {
         </div>
         <div className='nav-icon'>
           <div>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleShow} />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={openSidebar} />
             <Navbar.Brand href="#home" className='hideInDesktop'>
               <img className='nav-logo' src="/images/logo.png" alt="" />
             </Navbar.Brand>
@@ -43,7 +52,18 @@ export default function MyNavbar() {
           </div>
         </div>
       </div>
-      <Navbar.Offcanvas
+      <div className="customSidebar hideIt" id='customSidebar'>
+        <Nav className="me-auto">
+          <div className='crossbtn'>
+            <ImCross onClick={closeSidebar} />
+          </div>
+            <Nav.Link href="#mission" >Mission</Nav.Link>
+            <Nav.Link href="#roadmap" >Roadmap</Nav.Link>
+            <Nav.Link href="#faq" >Faq</Nav.Link>
+            <Nav.Link href="#team" >Team</Nav.Link>
+          </Nav>
+      </div>
+      {/* <Navbar.Offcanvas
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
           placement="start"
@@ -65,7 +85,7 @@ export default function MyNavbar() {
        
         
       </Offcanvas.Body>
-      </Navbar.Offcanvas>
+      </Navbar.Offcanvas> */}
     </Navbar>
     </div>
   )
