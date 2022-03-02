@@ -28,7 +28,7 @@
 
 .mycard{
   background-color: rgba(31, 31, 31, 1);
-  max-width: 248px;
+  /* max-width: 248px; */
   padding: 30px;
   border-radius: 10px;
 }
@@ -50,4 +50,34 @@
 }
 .content-part .tweetCont{
   flex-shrink: 1;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1227px){
+  .cardContainer{
+    width: 95%;
+    margin: auto;
+    row-gap: 20px;
+  }
+  .card-inner{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(31, 31, 31, 1); */
+    /* padding: 20px  */
+  }
+ 
+ .mycard{
+   background-color: rgba(31, 31, 31, 1);
+   padding: 10px;
+   border-radius: 10px;
+ }
+ .mycard .imgCont{
+   margin: auto
+ }
+ .mycard .imgCont img{
+  margin-bottom: 20px
+  
+}
+.content-part p{
+  font-size: 11px;
+}
 }
