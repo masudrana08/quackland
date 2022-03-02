@@ -11,7 +11,7 @@
   margin: 15px 0;
 }
 .accordion-item button, .accordion-item button:not(.collapsed){
-  : #1B1B1B;
+  background-color: #1B1B1B;
   border-radius: 0px 0px 12px 12px;
   color: rgba(255, 199, 0, 1);
   font-size: 1.25rem;
