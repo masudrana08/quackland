@@ -30,7 +30,7 @@ const Team = () => {
         <Col className='card-inner' xs={12} sm={6} md={3}>
           <div className="mycard">
             <div className='imgCont'>
-              <img src="/images/nonfunguy.png" alt="" />
+              <img src="/images/heartyi.png" alt="" />
             </div>
             <div className="content-part">
               <div>
@@ -46,7 +46,7 @@ const Team = () => {
         <Col className='card-inner' xs={12} sm={6} md={3}>
           <div className="mycard">
             <div className='imgCont'>
-              <img src="/images/nonfunguy.png" alt="" />
+              <img src="/images/sheezoreal.png" alt="" />
             </div>
             <div className="content-part">
               <div>
@@ -62,7 +62,7 @@ const Team = () => {
         <Col className='card-inner' xs={12} sm={6} md={3}>
           <div className="mycard">
             <div className='imgCont'>
-              <img src="/images/nonfunguy.png" alt="" />
+              <img src="/images/czardy.png" alt="" />
             </div>
             <div className="content-part">
               <div>
