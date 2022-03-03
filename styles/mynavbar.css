@@ -80,7 +80,6 @@
 .hideIt{
   transform: translateX(-100vw);
   transition: transform 0.7s;
-  /* display: none; */
 }
 .crossbtn{
   width:100%;
