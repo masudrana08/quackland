@@ -15,7 +15,7 @@ export default function Footer() {
               aria-label="Recipient's username"
               aria-describedby="basic-addon2"
             />
-            <InputGroup.Text id="basic-addon2">Subscribe</InputGroup.Text>
+            <InputGroup.Text style={{cursor:'pointer'}} id="basic-addon2">Subscribe</InputGroup.Text>
           </InputGroup>
         </div>
       </div>
@@ -39,9 +39,9 @@ export default function Footer() {
         </div>
         <div className='hideInMobile'>
           <div className='d-flex '>
-            <div className='icon-bg'><img src='/images/medium.png' /></div>
-            <div className='icon-bg'><img src='/images/twitter.png' /></div>
-            <div className='icon-bg'><img src='/images/discord.png' /></div>
+            <div className='icon-bg'><img onClick={()=>window.open("https://medium.com")} src='/images/medium.png' /></div>
+            <div className='icon-bg'><img onClick={()=>window.open("https://twitter.com")} src='/images/twitter.png' /></div>
+            <div className='icon-bg'><img onClick={()=>window.open("https://discord.com")} src='/images/discord.png' /></div>
           </div>
         </div>
       </div>

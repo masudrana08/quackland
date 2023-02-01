@@ -1,5 +1,6 @@
 .faqC .inner{
-  width: 80%;
+  width: 60%;
+  max-width: 800px;
   margin: auto;
 }
 .faqC .title{
@@ -41,5 +42,9 @@
     width: 80%;
     margin: auto;
     margin-bottom: 40px;
+  }
+  .faqC .inner{
+    width: 80%;
+    margin: auto;
   }
 }

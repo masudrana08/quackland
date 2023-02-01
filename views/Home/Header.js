@@ -13,8 +13,10 @@ const Header = () => {
           <p>You've embarked on a quest across a decentralized Web3 NFT-based adventure game, built on BSC & Polygon.</p>
           <p> Armed with only basic tools and a few tokens, you have been tasked with uncovering the lost Duck dynasty. Defend the habitat and restore Quack Land to greatness!</p>
           <div className='headerBtnContainer'>
-            <button>Join Discord</button>
-            <p>Follow Twitter</p>
+            <button onClick={()=>window.open("https://discord.com")}>Join Discord</button>
+            <a href="https://twitter.com" target="_blank"><p className="btn">
+              Follow Twitter
+            </p></a>
           </div>
           <div className='partnerContainer'>
             <img className='hideInMobile' src='/images/partners.png' alt="partners" />

@@ -22,7 +22,7 @@ const Team = () => {
                 <p>Operations</p>
               </div>
               <div className='tweetCont'>
-                <img src="/images/twitter2.png" alt="" />
+                <img src="/images/twitter2.png" alt="tweeter" onClick={()=>window.open("https://twitter.com")} />
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Team = () => {
                 <p>Software Developer</p>
               </div>
               <div className='tweetCont'>
-                <img src="/images/twitter2.png" alt="" />
+                <img src="/images/twitter2.png" alt="tweeter" onClick={()=>window.open("https://twitter.com")} />
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ const Team = () => {
                 <p>Community</p>
               </div>
               <div className='tweetCont'>
-                <img src="/images/twitter2.png" alt="" />
+                <img src="/images/twitter2.png" alt="tweeter" onClick={()=>window.open("https://twitter.com")} />
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ const Team = () => {
                 <p>Artist</p>
               </div>
               <div className='tweetCont'>
-                <img src="/images/twitter2.png" alt="" />
+                <img src="/images/twitter2.png" alt="tweeter" onClick={()=>window.open("https://twitter.com")} />
               </div>
             </div>
           </div>

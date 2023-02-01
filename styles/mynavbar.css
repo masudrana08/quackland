@@ -12,6 +12,7 @@
   align-items: center;
   margin: 0 14px;
   border-radius: 50%;
+  cursor: pointer;
 
 }
 .icon-bg:last-child{

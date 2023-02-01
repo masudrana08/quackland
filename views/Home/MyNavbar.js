@@ -46,9 +46,9 @@ export default function MyNavbar() {
             </Navbar.Brand>
           </div>
           <div className='d-flex'>
-            <div className='icon-bg'><img src='/images/medium.png' /></div>
-            <div className='icon-bg'><img src='/images/twitter.png' /></div>
-            <div className='icon-bg'><img src='/images/discord.png' /></div>
+            <div className='icon-bg'><img onClick={()=>window.open("https://medium.com")} src='/images/medium.png' /></div>
+            <div className='icon-bg'><img onClick={()=>window.open("https://twitter.com")} src='/images/twitter.png' /></div>
+            <div className='icon-bg'><img onClick={()=>window.open("https://discord.com")} src='/images/discord.png' /></div>
           </div>
         </div>
       </div>
